@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="css\Screenshot 2022-05-16 004501 - Copy.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Recipes</title>
+  <style>
+    ._dimg{
+          background-image:url("css/foodtalk_cover_large.jpg");
+  background-repeat: no-repeat;
+    
+  width: 100%;
+  background-size: cover;
+  border: white;
+  border:20px;
+  overflow-x: hidden;
+  padding: 0;
+ height: 500px;
+  margin-top:-90px;
+  
+}
+@media screen and (max-width:1050px){
+   
+    ._dimg{
+      position: fixed;
+      height: 210px;
+    }
+   
+  }
+  </style>
+</head>
+<body>
+  <div class="_dimg"><img src="css\Screenshot 2022-05-16 004501 - Copy.png" alt="photo" class="img1" ></div>
+  <nav class="navbar">
+    
+      <a class="toggle-button" onclick="drop()"
+      href="#">
+  
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        
+      </a>
+      <div class="navbar-links">
+      <ul>
+  
+       <li> <a href="index.html">Home</a></li>
+       <li> <a href="drinks.html">drinks</a></li>
+      <li>  <a href="dessert.html">dessert</a></li>
+      <li> <a href="online courses.html">online courses</a></li>
+      <li> <a href="about.html">Aboutus</a></li>
+
+       <li> <a href="resistor.html">register</a> </li>
+       <li> <a href="login.html">log in</a></li>
+        </ul>
+      </div>
+      </nav>
+     
+     
+      <div class="center">
+        <div class="nav">
+          <span class="span1">RECIPES</span>
+          <div class="dropdown">
+            <button class="dropbtn">Categories
+
+              <i class="fa fa-caret-down" id="drop"></i>
+            </button>
+            <div class="dropdown-content">
+             
+              <a href="recipes.html">recipes</a>
+              <a href="drinks.html">drinks</a>
+              <a href="dessert.html">dessert</a>
+              
+            </div>
+          </div> 
+        </div>
+        <div id="hide">
+       <div class="edit1">
+          <div class="line1">
+            <img src="css\image (29).webp" alt="photo" class=" _line1">
+            <br class="br">
+            <img src="css\image (32).webp" alt="photo"  class=" _line2">
+            <div class="back1">
+              <div class="div10">
+                <br>
+                Quinoa Lunch for One
+                </div>
+                <div class="div11"> Leslie Davis</div>    
+                <div class="div11"> Quinoa and fresh veggies make a wholesome and filling lunch that tastes great and is quick to prepare when cooking for one. .
+                </div> 
+                <div> <button onclick="opfunction1()" class="fun">Read More</button></div>
+             
+              </div>
+            </div>
+            
+            <div class="back2">
+              <div class="div10">
+                <br>
+                Quick and Easy Curry Chicken Salad for Lunches
+                </div>
+                <div class="div11"> Leslie Davis</div>    
+                <div class="div11"> Curry chicken salad is one of my favorite recipes to make ahead for a week of effortless but delicious lunches.<br>
+                  
+                </div> 
+                <div> <button onclick="opfunction2()" class="fun">Read More</button></div>
+             
+              </div>
+       </div>
+          </div>
+          
+       
+    <div class="center">
+     
+     <div class="edit">
+        <div class="line1">
+          <img src="css\Screenshot 2022-05-17 011016 (4).png"  alt="photo"  class=" _line1">
+          <br class="br">
+          <img src= "css\image (31).webp"   alt="photo" class=" _line2">
+          <div class="back1">
+            <div class="div10">
+              <br>
+              Colorful Quesadillas
+              </div>
+              <div class="div11"> Leslie Davis</div>    
+              <div class="div11"> T
+                These quesadillas are super simple, colorful, and cheesy.<br> Try adding your own colorful vegetables to this appetizer.
+              </div> 
+              <div> <button onclick="opfunction3()" class="fun">Read More</button></div>
+           
+            </div>
+          </div>
+          
+          <div class="back2">
+            <div class="div10">
+              <br>
+              Hot Dog Roll Up
+              </div>
+              <div class="div11"> Leslie Davis</div>    
+              <div class="div11"> Cheesy and easy. This two-minute lunch idea is so simple, your kids can make them.
+              </div> 
+              <div> <button onclick="opfunction4()" class="fun">Read More</button></div>
+           
+            </div>
+     </div>
+        </div>
+        
+         
+    <div class="center">
+    
+     <div class="edit">
+        <div class="line1">
+          <img src="css\image (30).webp" alt="photo" class=" _line1">
+          <br class="br">
+          <img src="css\image (34).webp"  alt="photo"  class=" _line2">
+          <div class="back1">
+            <div class="div10">
+              <br>
+              Canned Salmon Lunch
+              </div>
+              <div class="div11"> Leslie Davis</div>    
+              <div class="div11"> All five of my kids eat this, and my picky eater requests it for lunch often. Serve on crackers.
+              </div> 
+              <div> <button onclick="opfunction5()" class="fun">Read More</button></div>
+           
+            </div>
+          </div>
+          
+          <div class="back2">
+            <div class="div10">
+              <br>
+              Fruity Red Salmon Salad
+              </div>
+              <div class="div11"> Leslie Davis</div>    
+              <div class="div11"> Sweetened with apples and raisins and eaten on whole wheat saltines, this is a very healthy lunch salad! I like my salads moist.
+              </div> 
+              <div> <button onclick="opfunction6()" class="fun">Read More</button></div>
+           
+            </div>
+     </div>
+        </div>
+</div>
+<div class="center">
+    
+  <div class="edit">
+     <div class="line1">
+       <img src="css\image (19).webp" alt="photo" class=" _line1">
+       <br class="br">
+       <img src="css\image (17).webp" alt="photo"   class=" _line2">
+       <div class="back1">
+         <div class="div10">
+           <br>Mexican Fiestada for School Lunch 15 Minute Chili
+           </div>
+           <div class="div11"> Leslie Davis</div>    
+           <div class="div11"> Back-to-school lunch version of Mexican fiestada.
+           </div> 
+           <div> <button onclick="opfunction7()" class="fun">Read More</button></div>
+        
+         </div>
+       </div>
+       
+       <div class="back2">
+         <div class="div10">
+           <br>
+           Lunch Lady Texas Goulash
+           </div>
+           <div class="div11"> Leslie Davis</div>    
+           <div class="div11"> One of our favorite school lunches. Source: <br>From the archives of the Irving Independent School District in Irving, Texas.
+           </div> 
+           <div> <button onclick="opfunction8()" class="fun">Read More</button></div>
+        
+         </div>
+  </div>
+     </div>
+       
+         
+      <div id="deom">
+        <div class="edit">
+          <div class="line1">
+            <img src="css\image (18).webp" alt="photo" class=" _line1">
+            <br class="br">
+            <img src="css\image (21).webp"  alt="photo"  class=" _line2">
+            <div class="back1">
+              <div class="div10">
+                <br>
+                Brunch Lunch
+                </div>
+                <div class="div11"> Leslie Davis</div>    
+                <div class="div11"> Ideal dish for brunches. Serve with warm biscuits, fresh juices.
+                </div> 
+                <div> <button onclick="opfunction9()" class="fun">Read More</button></div>
+             
+              </div>
+            </div>
+            
+            <div class="back2">
+              <div class="div10">
+                <br>
+                Busy Day Lunch Salad
+                </div>
+                <div class="div11"> Leslie Davis</div>    
+                <div class="div11"> You can add capers, green olives, or extra hearts of palm to this recipe. They will all give it an extra kick.
+                </div> 
+                <div> <button onclick="opfunction10()" class="fun">Read More</button></div>
+             
+              </div>
+       </div>
+      </div>
+     
+      <button onclick="show()" class="showemore"> show more</button>
+      <!--showmore-->
+        <div class="dimg">
+
+          <img src="css\Screenshot 2022-05-16 004501 - Copy.png" alt="photo" class="img1"> 
+          <div class="icon">
+          
+          <a href="#" class="fa fa-facebook"></a>
+          
+          <a href="#" class="fa fa-twitter"></a>
+          
+          <a href="#" class="fa fa-google"></a>
+          
+          
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+          
+          <a href="#" class="fa fa-instagram"></a>
+          </div>
+           </div>
+     <script>
+       function drop() {
+    const togglebutton = document.getElementsByClassName('toggle-button')[0]
+    const navbarlinks = document.getElementsByClassName('navbar-links')[0]
+    togglebutton.addEventListener('click', () => { navbarlinks.classList.toggle('show') })
+}
+function show(){
+
+  document.getElementById("demo").style.display = "block";
+  
+
+}
+function opfunction1(){
+    window.open("https://www.allrecipes.com/recipe/275130/quinoa-lunch-for-one/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction2(){
+    window.open("https://www.allrecipes.com/recipe/285535/quick-and-easy-curry-chicken-salad-for-lunches/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction3(){
+    window.open("https://www.allrecipes.com/recipe/21659/chicken-quesadillas/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction4(){
+    window.open("https://www.allrecipes.com/recipe/164992/hot-dog-roll-up/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction5(){
+    window.open("https://www.allrecipes.com/recipe/238850/canned-salmon-lunch/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction6(){
+    window.open("https://www.allrecipes.com/recipe/228892/fruity-red-salmon-salad/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction7(){
+    window.open("https://www.allrecipes.com/recipe/265999/mexican-fiestada-for-school-lunch/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }function opfunction8(){
+    window.open("https://www.allrecipes.com/recipe/280705/lunch-lady-texas-goulash/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction9(){
+    window.open("https://www.allrecipes.com/recipe/24258/brunch-lunch/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+  function opfunction10(){
+    window.open("https://www.allrecipes.com/recipe/192677/busy-day-lunch-salad/","_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=37,left=37,width=1340,height=640")
+  }
+     </script>
+</body>
+</html>

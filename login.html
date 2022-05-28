@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="css\Screenshot 2022-05-16 004501.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Log In</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:  rgba(235, 206, 111, 0.911);
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+   
+    .container {
+      margin-top: 50px;
+      position: relative;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px 0 30px 0;
+    } 
+    
+    
+    input,
+    .btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      margin: 5px 0;
+      opacity: 0.85;
+      display: inline-block;
+      font-size: 17px;
+      line-height: 20px;
+      text-decoration: none; 
+    }
+    input:hover,
+    .btn:hover {
+      opacity: 1;
+    }
+    
+   
+    .fb {
+      background-color: #3B5998;
+      color: white;
+    }
+    
+    .twitter {
+      background-color: #55ACEE;
+      color: white;
+    }
+    
+    .google {
+      background-color: #dd4b39;
+      color: white;
+    }
+    
+    
+    input[type=submit] {
+      background-color: goldenrod;
+      color: white;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: goldenrod;
+    }
+    
+   
+    .col {
+      float: left;
+      width: 50%;
+      margin: auto;
+      padding: 0 50px;
+      margin-top: 6px;
+    }
+    .img1{
+      margin-left: 630px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+  
+    .vl {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      border: 2px solid #ddd;
+      height: 175px;
+    }
+    
+    
+    .vl-innertext {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      padding: 8px 10px;
+    }
+    
+    .hide-md-lg {
+      display: none;
+    }
+    
+  
+    .bottom-container {
+      text-align: center;
+      background-color: goldenrod;
+      border-radius: 0px 0px 4px 4px;
+    }
+    
+   
+    @media screen and (max-width: 650px) {
+      .col {
+        width: 100%;
+        margin-top: 0;
+      }
+     
+      .vl {
+        display: none;
+      }
+     
+      .hide-md-lg {
+        display: block;
+        text-align: center;
+      }
+      .container{
+        margin-top: 1px;
+      }
+      .img1{
+        margin-left: 170px;
+      }
+    }
+    </style>
+</head>
+<body>
+  <div class="_dimg"><img src="css\Screenshot 2022-05-16 004501 - Copy.png" alt="photo"  class="img1" style=" clip-path: circle(40px);
+    background-clip: 1oopx; "  ></div>
+    <div class="container">
+
+        <form action="submit.html" method="get" >
+          <div class="row">
+            <h2 style="text-align:center">Login </h2>
+            <div class="vl">
+              <span class="vl-innertext">or</span>
+            </div>
+      
+            <div class="col">
+              <a href="https://facebook.com" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+               </a>
+              <a href="https://twitter.com" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+              </a>
+              <a href="https://google.com" class="google btn"><i class="fa fa-google fa-fw">
+                </i> Login with Google+
+              </a>
+            </div>
+      
+            <div class="col">
+              <div class="hide-md-lg">
+                <p>Or sign in</p>
+              </div>
+      
+              <input type="email" id="email" name="username" placeholder="enter your email" required>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              <input type="submit" value="Login">
+            </div>
+            
+          </div>
+        </form>
+      </div>
+      
+      <div class="bottom-container">
+        <div class="row">
+          <div class="col">
+            <a href="resistor.html" style="color:white" class="btn">register</a>
+          </div>
+          <div class="col">
+            <a href="#" style="color:white" class="btn">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+      
+  <script>
+
+var x=document.getElementById("email").value;
+
+var y=document.getElementById("password").value;
+
+
+
+
+
+
+  </script>
+  
+</body>
+</html>
